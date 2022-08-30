@@ -27,6 +27,7 @@ Figure 2. December Temperatures
 
 
 ![June_Distribution](Resources/June_Distribution.png)
+
 ![Dec_Distribution](Resources/Dec_Distribution.png)
 
 
