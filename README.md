@@ -44,4 +44,5 @@ session.query(Measurement.station, func.count(Measurement.station)).\
 group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
 
 2. Filter data to examine months have age perfect temp, like April.
+
 session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date) == 4).all()
