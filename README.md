@@ -35,7 +35,9 @@ Figure 2. December Temperatures
 
 The analysis did not present red flags regarding the feasibility of having a surf and ice cream shop  year round. It will be beneficial to examine the extreme weather months for the area and the rates of tourism during the months under consideration. 
 
-Additional queries could include the following - 
+Additional queries could include the following: 
+
+
 1.Considering the weather being reported at certain stations. 
 
 session.query(Measurement.station, func.count(Measurement.station)).\
